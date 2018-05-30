@@ -6,7 +6,7 @@ import {
   NavigatorIOS
 } from 'react-native';
 
-import { Router, Scene } from 'react-native-router-flux';
+import { Router, Scene, Stack } from 'react-native-router-flux';
 
 
 import WelcomeScreen from './scenes/welcome/welcome'

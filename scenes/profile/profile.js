@@ -3,14 +3,22 @@ import {
   Platform,
   StyleSheet,
   Button,
+  Text,
   View
 } from 'react-native';
 
+import { Actions} from 'react-native-router-flux';
 
 type Props = {};
 export default class ProfileScreen extends Component<Props> {
 
-  openTopics(){}
+  constructor(props) {
+    super(props)
+  }
+
+  openTopics(){
+      Actions.topics()
+  }
   openQuizes(){}
 
   render() {

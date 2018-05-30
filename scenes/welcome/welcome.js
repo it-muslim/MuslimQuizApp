@@ -8,6 +8,8 @@ import {
   View
 } from 'react-native';
 
+import { Actions} from 'react-native-router-flux';
+
 
 export default class WelcomeScreen extends React.Component {
   static propTypes = {
@@ -23,6 +25,7 @@ export default class WelcomeScreen extends React.Component {
   }
 
   signIn(){
+    Actions.profile({foo:"bar"})
   }
   signUp(){
 
@@ -39,7 +42,7 @@ export default class WelcomeScreen extends React.Component {
       />
       <Button
         onPress={this.signUp}
-        title="Sign UP"
+        title="Sign Up"
         color="#841584"
         accessibilityLabel="Sign Up"
       />

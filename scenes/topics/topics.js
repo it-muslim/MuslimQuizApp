@@ -6,6 +6,8 @@ import {
   View
 } from 'react-native';
 
+import QuizTable from './components/QuizTable';
+import { Actions} from 'react-native-router-flux';
 
 type Props = {};
 export default class TopicsScreen extends Component<Props> {

@@ -10,7 +10,7 @@ import {
 import Header from '../components/Header'
 import QuizTableRow from '../components/QuizTableRow'
 import Footer from '../components/Footer'
-import topics from '../mockedData/islamic-quiz-dating-topics-export'
+import topics from '../../../mockedData/islamic-quiz-dating-topics-export'
 
 class QuizTable extends Component {
   constructor(props) {
